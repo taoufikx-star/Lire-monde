@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LireMonde — Accueil</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- NAVBAR -->
   <nav>
     <div class="nav-inner">
       <a href="index.html" class="logo">Lire<span>Monde</span></a>
@@ -17,19 +18,24 @@
         <li><a href="admin.html">Admin</a></li>
       </ul>
       <div class="nav-search">
-        <input type="text" id="recherche" placeholder="Rechercher…"/>
+        <input type="text" id="recherche" placeholder="Rechercher..." />
       </div>
     </div>
   </nav>
 
+  <!-- CONTENU PRINCIPAL -->
   <main>
     <section id="filtres"></section>
     <section id="livres-grid" class="grille"></section>
   </main>
 
+  <!-- MODALE -->
   <div id="modale" class="modale cache"></div>
 
-  <footer><strong>LireMonde</strong> © 2025 — ReadSphere</footer>
+  <!-- FOOTER -->
+  <footer>
+    <strong>LireMonde</strong> © 2025 — ReadSphere
+  </footer>
 
   <script src="script.js"></script>
 </body>

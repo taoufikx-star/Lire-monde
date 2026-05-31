@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LireMonde — Admin</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -16,51 +16,35 @@
         <li><a href="alire.html">À lire</a></li>
         <li><a href="admin.html" class="actif">Admin</a></li>
       </ul>
-      <div class="nav-search">
-        <input type="text" id="recherche" placeholder="Rechercher…"/>
-      </div>
     </div>
   </nav>
 
-  <main>
+  <main class="admin-main">
 
-    <div class="form-card">
+    <!-- FORMULAIRE -->
+    <section class="form-section">
       <h2 id="form-titre">➕ Ajouter un livre</h2>
-      <input type="hidden" id="champ-id"/>
       <form id="form-livre">
-        <div class="fg">
-          <label>Titre</label>
-          <input type="text" id="champ-titre" placeholder="Ex: Le Petit Prince" required/>
-        </div>
-        <div class="fg">
-          <label>Auteur</label>
-          <input type="text" id="champ-auteur" placeholder="Ex: Antoine de Saint-Exupéry" required/>
-        </div>
-        <div class="fg">
-          <label>Genre</label>
-          <select id="champ-genre">
-            <option value="Classique">Classique</option>
-            <option value="Science-fiction">Science-fiction</option>
-            <option value="Drame">Drame</option>
-            <option value="Fantasy">Fantasy</option>
-          </select>
-        </div>
-        <div class="fg">
-          <label>Description</label>
-          <textarea id="champ-description" placeholder="Résumé du livre..." required></textarea>
-        </div>
-        <div class="fg">
-          <label>URL Couverture</label>
-          <input type="text" id="champ-couverture" placeholder="https://..."/>
-        </div>
+        <input type="hidden" id="champ-id" />
+        <input type="text"   id="champ-titre"       placeholder="Titre"       required />
+        <input type="text"   id="champ-auteur"      placeholder="Auteur"      required />
+        <select id="champ-genre">
+          <option value="Classique">Classique</option>
+          <option value="Science-fiction">Science-fiction</option>
+          <option value="Drame">Drame</option>
+          <option value="Fantasy">Fantasy</option>
+        </select>
+        <textarea id="champ-description" placeholder="Description" required></textarea>
+        <input type="text" id="champ-couverture" placeholder="URL couverture (optionnel)" />
         <div class="form-actions">
-          <button type="submit" class="btn btn-or" id="btn-submit">➕ Ajouter le livre</button>
-          <button type="button" class="btn btn-ghost" id="btn-annuler" style="display:none">✕ Annuler</button>
+          <button type="submit" id="btn-submit">➕ Ajouter le livre</button>
+          <button type="button" id="btn-annuler" style="display:none">✖ Annuler</button>
         </div>
       </form>
-    </div>
+    </section>
 
-    <div class="table-card">
+    <!-- TABLEAU -->
+    <section class="tableau-section">
       <h2>📚 Liste des livres</h2>
       <table>
         <thead>
@@ -73,11 +57,13 @@
         </thead>
         <tbody id="corps-tableau"></tbody>
       </table>
-    </div>
+    </section>
 
   </main>
 
-  <footer><strong>LireMonde</strong> © 2025 — ReadSphere</footer>
+  <footer>
+    <strong>LireMonde</strong> © 2025 — ReadSphere
+  </footer>
 
   <script src="script.js"></script>
 </body>

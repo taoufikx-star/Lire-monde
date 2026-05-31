@@ -5,17 +5,26 @@
       "titre": "Le Petit Prince",
       "auteur": "Antoine de Saint-Exupéry",
       "genre": "Classique",
-      "description": "Un aviateur tombe en panne dans le désert du Sahara et rencontre un mystérieux petit garçon venu d'une autre planète.",
-      "couverture": "https://picsum.photos/seed/pp/200/300",
-      "aLire": true
+      "description": "Un aviateur échoué dans le désert rencontre un petit prince venu d'une autre planète. À travers ce récit poétique, Saint-Exupéry explore des thèmes universels comme l'amitié, l'amour et le sens de la vie.",
+      "couverture": "https://picsum.photos/seed/prince/200/300",
+      "aLire": false
+    },
+    {
+      "id": "2",
+      "titre": "Dune",
+      "auteur": "Frank Herbert",
+      "genre": "Science-fiction",
+      "description": "Sur la planète désertique Arrakis, Paul Atréides se retrouve au cœur d'une guerre pour le contrôle de l'épice, la ressource la plus précieuse de l'univers.",
+      "couverture": "https://picsum.photos/seed/dune/200/300",
+      "aLire": false
     },
     {
       "id": "3",
-      "titre": "Les Misérables",
-      "auteur": "Victor Hugo",
+      "titre": "Roméo et Juliette",
+      "auteur": "William Shakespeare",
       "genre": "Drame",
-      "description": "Jean Valjean, ancien forçat, cherche la rédemption dans une France du XIXe siècle.",
-      "couverture": "https://picsum.photos/seed/miz/200/300",
+      "description": "Deux jeunes gens issus de familles ennemies tombent éperdument amoureux à Vérone. Leur amour impossible les conduira vers une fin tragique.",
+      "couverture": "https://picsum.photos/seed/romeo/200/300",
       "aLire": false
     },
     {
@@ -23,46 +32,27 @@
       "titre": "Le Seigneur des Anneaux",
       "auteur": "J.R.R. Tolkien",
       "genre": "Fantasy",
-      "description": "Frodon doit détruire l'Anneau Unique pour sauver la Terre du Milieu de Sauron.",
-      "couverture": "https://picsum.photos/seed/lotr/200/300",
-      "aLire": true
+      "description": "Frodon Sacquet entreprend un voyage périlleux pour détruire l'Anneau Unique et sauver la Terre du Milieu des griffes du Seigneur des Ténèbres Sauron.",
+      "couverture": "https://picsum.photos/seed/tolkien/200/300",
+      "aLire": false
     },
     {
       "id": "5",
-      "titre": "Dune",
-      "auteur": "Frank Herbert",
+      "titre": "1984",
+      "auteur": "George Orwell",
       "genre": "Science-fiction",
-      "description": "Sur la planète désertique Arrakis, Paul Atréides affronte trahisons et guerres.",
-      "couverture": "https://picsum.photos/seed/dune/200/300",
+      "description": "Dans un monde totalitaire dirigé par Big Brother, Winston Smith tente de résister au régime oppressif qui contrôle chaque aspect de la vie des citoyens.",
+      "couverture": "https://picsum.photos/seed/orwell/200/300",
       "aLire": false
     },
     {
       "id": "6",
-      "titre": "Harry Potter",
-      "auteur": "J.K. Rowling",
-      "genre": "Fantasy",
-      "description": "Harry découvre à 11 ans qu'il est sorcier et entre à l'école Poudlard.",
-      "couverture": "https://picsum.photos/seed/hpot/200/300",
-      "aLire": false
-    },
-    {
-      "id": "7",
-      "titre": "Madame Bovary",
-      "auteur": "Gustave Flaubert",
+      "titre": "Les Misérables",
+      "auteur": "Victor Hugo",
       "genre": "Classique",
-      "description": "Emma Bovary rêve d'une vie romanesque. Ses illusions la conduisent vers une fin tragique.",
-      "couverture": "https://picsum.photos/seed/bov/200/300",
-      "aLire": false
-    },
-    {
-      "id": "8",
-      "titre": "La Peste",
-      "auteur": "Albert Camus",
-      "genre": "Drame",
-      "description": "Dans la ville d'Oran frappée par une épidémie, le docteur Rieux lutte contre la maladie.",
-      "couverture": "https://picsum.photos/seed/pest/200/300",
+      "description": "Jean Valjean, ancien forçat, cherche à se racheter dans la France du XIXe siècle, poursuivi sans relâche par l'inspecteur Javert.",
+      "couverture": "https://picsum.photos/seed/hugo/200/300",
       "aLire": false
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
