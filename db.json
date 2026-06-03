@@ -1,13 +1,13 @@
 {
   "livres": [
     {
-      "id": "1",
       "titre": "Le Petit Prince",
       "auteur": "Antoine de Saint-Exupéry",
       "genre": "Classique",
       "description": "Un aviateur échoué dans le désert rencontre un petit prince venu d'une autre planète. À travers ce récit poétique, Saint-Exupéry explore des thèmes universels comme l'amitié, l'amour et le sens de la vie.",
-      "couverture": "https://picsum.photos/seed/prince/200/300",
-      "aLire": false
+      "couverture": "https://prodimage.images-bn.com/pimages/9789361906183_p0_v1_s600x595.jpg",
+      "aLire": true,
+      "id": "1"
     },
     {
       "id": "2",
@@ -15,7 +15,7 @@
       "auteur": "Frank Herbert",
       "genre": "Science-fiction",
       "description": "Sur la planète désertique Arrakis, Paul Atréides se retrouve au cœur d'une guerre pour le contrôle de l'épice, la ressource la plus précieuse de l'univers.",
-      "couverture": "https://picsum.photos/seed/dune/200/300",
+      "couverture": "https://i.etsystatic.com/16102212/r/il/2482ff/2771009725/il_fullxfull.2771009725_chlb.jpg",
       "aLire": false
     },
     {
@@ -24,7 +24,7 @@
       "auteur": "William Shakespeare",
       "genre": "Drame",
       "description": "Deux jeunes gens issus de familles ennemies tombent éperdument amoureux à Vérone. Leur amour impossible les conduira vers une fin tragique.",
-      "couverture": "https://picsum.photos/seed/romeo/200/300",
+      "couverture": "https://cdn1.booknode.com/book_cover/999/full/romeo-et-juliette-999226.jpg",
       "aLire": false
     },
     {
@@ -33,7 +33,7 @@
       "auteur": "J.R.R. Tolkien",
       "genre": "Fantasy",
       "description": "Frodon Sacquet entreprend un voyage périlleux pour détruire l'Anneau Unique et sauver la Terre du Milieu des griffes du Seigneur des Ténèbres Sauron.",
-      "couverture": "https://picsum.photos/seed/tolkien/200/300",
+      "couverture": "https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/1_9782267050356_1_75.jpg",
       "aLire": false
     },
     {
@@ -42,7 +42,7 @@
       "auteur": "George Orwell",
       "genre": "Science-fiction",
       "description": "Dans un monde totalitaire dirigé par Big Brother, Winston Smith tente de résister au régime oppressif qui contrôle chaque aspect de la vie des citoyens.",
-      "couverture": "https://picsum.photos/seed/orwell/200/300",
+      "couverture": "https://cdn.kobo.com/book-images/c9472126-7f96-402d-ba57-5ba4c0f4b238/1200/1200/False/nineteen-eighty-four-1984-george.jpg",
       "aLire": false
     },
     {
@@ -51,8 +51,9 @@
       "auteur": "Victor Hugo",
       "genre": "Classique",
       "description": "Jean Valjean, ancien forçat, cherche à se racheter dans la France du XIXe siècle, poursuivi sans relâche par l'inspecteur Javert.",
-      "couverture": "https://picsum.photos/seed/hugo/200/300",
+      "couverture": "https://m.media-amazon.com/images/I/91HpKKPL-vL._SL1500_.jpg",
       "aLire": false
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
